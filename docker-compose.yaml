@@ -10,3 +10,5 @@ services:
      WORDPRESS_DB_USER: wpuser
      WORDPRESS_DB_PASSWORD: wppassword123456789
      WORDPRESS_DB_NAME: wordpress
+   volumes:
+      - wordpress:/data
