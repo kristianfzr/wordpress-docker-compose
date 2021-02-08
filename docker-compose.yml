@@ -6,7 +6,7 @@ services:
      - 80:80
    restart: always
    environment:
-     WORDPRESS_DB_HOST: wordpressdbecs.c1unvilqlnyq.eu-west-3.rds.amazonaws.com:3306
+     WORDPRESS_DB_HOST: terraform-20210208191828627200000001.cpy2cbjlq5i8.us-east-1.rds.amazonaws.com:3306
      WORDPRESS_DB_USER: wpuser
      WORDPRESS_DB_PASSWORD: wpfoobarbaz
      WORDPRESS_DB_NAME: wordpress
