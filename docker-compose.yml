@@ -12,3 +12,6 @@ services:
      WORDPRESS_DB_NAME: wordpress
    volumes:
       - wordpress:/data
+
+volumes:
+wordpress:
